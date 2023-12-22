@@ -1,7 +1,7 @@
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version "1.9.0"
-    id("org.jetbrains.intellij") version "1.15.0"
+    id("org.jetbrains.kotlin.jvm") version "1.8.10"
+    id("org.jetbrains.intellij") version "1.13.2"
 }
 
 group = "com.lio"
@@ -13,8 +13,8 @@ repositories {
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
-    version.set("2022.2.5")
-    type.set("IC") // Target IDE Platform
+    version.set("2022.2.1.18")
+    type.set("AI") // Target IDE Platform
 
     plugins.set(listOf(/* Plugin Dependencies */))
 }
@@ -36,7 +36,7 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("212")
+        sinceBuild.set("222")
         untilBuild.set("232.*")
     }
 

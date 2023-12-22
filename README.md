@@ -3,7 +3,7 @@
 Flutter MVC模板生成
 
 操作步骤:<br>
-1.选择要生成文件的文件夹，右键选择 New -> MVC Generator；
+1.选择要生成文件的文件夹，右键选择 New -> MVC Generator；<br>
 2.输入要生成的文件的前缀，点击 Generate 一键生成。
 
 操作视频：

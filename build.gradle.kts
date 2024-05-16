@@ -37,7 +37,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("222")
-        untilBuild.set("*.*")
+        untilBuild.set("")
         changeNotes.set(
             """
             upgrade intellij build version 
